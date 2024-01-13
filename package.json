@@ -20,11 +20,12 @@
   "dependencies": {
     "@iconify/vue": "^4.1.1",
     "@nuxt/content": "^2.10.0",
+    "@nuxtjs/seo": "^2.0.0-rc.4",
+    "@nuxtjs/sitemap": "^5.0.1",
     "@tailwindcss/forms": "^0.5.7",
     "@vueuse/nuxt": "^10.7.1",
     "clipboard": "^2.0.11",
     "preline": "^2.0.3",
-    "sass": "^1.69.6",
-    "vite-plugin-sitemap": "^0.5.3"
+    "sass": "^1.69.6"
   }
 }
