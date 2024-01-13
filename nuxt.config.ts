@@ -18,11 +18,6 @@ export default defineNuxtConfig({
   css: ['~/assets/css/style.scss'],
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "@nuxtjs/color-mode", "@vueuse/nuxt", "@nuxt/content"],
-  vite: {
-    plugins: [
-      Sitemap({hostname: 'https://v2.crystaworld1221.com'})
-    ]
-  },
   tailwindcss: {
     cssPath: "~/assets/css/style.scss",
     configPath: 'tailwind.config.js',
