@@ -22,7 +22,7 @@
             </section>
           </div>
         </a>
-        <a class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#5865f2]" style="opacity: 1; transform: none;">
+        <div class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#5865f2]" style="opacity: 1; transform: none;">
           <div class="flex h-10 w-10 items-center justify-center rounded-xl">
             <Icon icon="skill-icons:discord" width="38" height="38" />
           </div>
@@ -32,7 +32,7 @@
               <p class="text-sm lg:mr-16">@crysta1221</p>
             </section>
           </div>
-        </a>
+        </div>
         <a class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-gray-500" href="https://github.com/Crysta1221" target="_blank" style="opacity: 1; transform: none;">
           <div class="flex h-10 w-10 items-center justify-center rounded-xl">
             <Icon icon="skill-icons:github-dark" width="38" height="38" />
@@ -44,7 +44,7 @@
             </section>
           </div>
         </a>
-        <a class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#eb0029]" style="opacity: 1; transform: none;">
+        <div class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#eb0029]" style="opacity: 1; transform: none;">
           <div class="w-9 h-9 rounded-lg shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center bg-[#eb0029]">
             <Icon icon="simple-icons:riotgames" class="p-1.5 text-4xl text-white" width="36" height="36"/>
           </div>
@@ -54,7 +54,7 @@
               <p class="text-sm lg:mr-4">Cr1sta#くりすた</p>
             </section>
           </div>
-        </a>
+        </div>
         <a class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#55c500]" href="https://qiita.com/Crysta1221" target="_blank" style="opacity: 1; transform: none;">
           <div class="w-9 h-9 rounded-lg shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center bg-[#55c500]">
             <Icon icon="simple-icons:qiita" class="p-1.5 text-4xl text-white" width="36" height="36"/>
@@ -77,7 +77,7 @@
             </section>
           </div>
         </a>
-        <a class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#3b8526]" style="opacity: 1; transform: none;">
+        <div class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#3b8526]" style="opacity: 1; transform: none;">
           <div class="w-9 h-9 rounded-lg shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center bg-[#3b8526]">
             <Icon icon="file-icons:minecraft" class="p-1.5 text-4xl text-black" width="30" height="30"/>
           </div>
@@ -87,8 +87,8 @@
               <p class="text-sm lg:mr-4">Crysta1221</p>
             </section>
           </div>
-        </a>
-        <a class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#2a475e]" style="opacity: 1; transform: none;">
+        </div>
+        <div class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#2a475e]" style="opacity: 1; transform: none;">
           <div class="w-9 h-9 rounded-lg shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center bg-[#1b2838]">
             <Icon icon="mdi:steam" class="p-1.5 text-4xl text-white" width="36" height="36"/>
           </div>
@@ -98,8 +98,8 @@
               <p class="text-sm lg:mr-4">Crysta1221</p>
             </section>
           </div>
-        </a>
-        <a class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#000] dark:hover:border-[#fff]" style="opacity: 1; transform: none;">
+        </div>
+        <div class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#000] dark:hover:border-[#fff]" style="opacity: 1; transform: none;">
           <div class="w-9 h-9 rounded-lg shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center">
             <img class="rounded" src="/genshin.jpg" alt="Genshin"/>
           </div>
@@ -109,8 +109,8 @@
               <p class="text-sm lg:mr-4">UID: 865469313</p>
             </section>
           </div>
-        </a>
-        <a class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#000] dark:hover:border-[#fff]" style="opacity: 1; transform: none;">
+        </div>
+        <div class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#000] dark:hover:border-[#fff]" style="opacity: 1; transform: none;">
           <div class="w-9 h-9 rounded-lg shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center">
             <img class="rounded" src="/hsr.webp" alt="HSR"/>
           </div>
@@ -120,7 +120,7 @@
               <p class="text-sm lg:mr-4">UID: 801859382</p>
             </section>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   </div>
