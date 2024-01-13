@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-between h-16 items-center  mr-8 lg:mr-16 mt-6 gap-4">
-    <router-link to="/" type="button" class="ml-8 group py-2 px-2 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-zinc-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-zinc-800">
+    <router-link aria-label="Home" to="/" type="button" class="ml-8 group py-2 px-2 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-zinc-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-zinc-800">
       <Icon class="block text-black dark:text-white" icon="tabler:home-2" width="20" height="20"/>
     </router-link>
     <div class="flex gap-4">
