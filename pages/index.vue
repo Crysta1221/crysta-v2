@@ -2,7 +2,7 @@
   <Theme/>
   <div class="flex flex-col lg:flex-row mt-4">
     <div class="md:w-4/12 lg:w-4/12 ml-8 lg:ml-20">
-      <img src="/crysta.png" class="w-[120px] lg:w-[180px] border shadow border-gray-200 dark:border-none rounded-full" alt="Crysta1221" />
+      <NuxtImg format="webp" src="/crysta.png" class="w-[120px] lg:w-[180px] border shadow border-gray-200 dark:border-none rounded-full" alt="Crysta1221" />
       <section>
         <h1 class="text-3xl lg:text-4xl ml-2 lg:ml-4 font-bold main mt-8">くりすた</h1>
         <p class="mt-3 text-zinc-500 text-lg ml-2 lg:ml-4">フロントエンド大好き</p>
@@ -101,7 +101,7 @@
         </a>
         <a class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#000] dark:hover:border-[#fff]" style="opacity: 1; transform: none;">
           <div class="w-9 h-9 rounded-lg shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center">
-            <img class="rounded" src="/genshin.jpg"/>
+            <img class="rounded" src="/genshin.jpg" alt="Genshin"/>
           </div>
           <div class="mt-2 flex flex-col gap-1">
             <p>Genshin Impact</p>
@@ -112,7 +112,7 @@
         </a>
         <a class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#000] dark:hover:border-[#fff]" style="opacity: 1; transform: none;">
           <div class="w-9 h-9 rounded-lg shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center">
-            <img class="rounded" src="/hsr.webp"/>
+            <img class="rounded" src="/hsr.webp" alt="HSR"/>
           </div>
           <div class="mt-2 flex flex-col gap-1">
             <p>Honkai Star Rail</p>

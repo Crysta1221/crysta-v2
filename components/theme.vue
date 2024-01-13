@@ -5,7 +5,7 @@
     </router-link>
     <div class="flex gap-4">
       <div class="hs-dropdown" data-hs-dropdown-placement="bottom-right" data-hs-dropdown-offset="30">
-        <button type="button" class="hs-dropdown-toggle hs-dark-mode group py-2 px-2 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-zinc-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-zinc-800">
+        <button aria-label="Theme" type="button" class="hs-dropdown-toggle hs-dark-mode group py-2 px-2 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-zinc-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-zinc-800">
           <Icon class="block text-black dark:text-white" :icon="$colorMode.preference === 'system' ? 'tabler:device-desktop' : ($colorMode.preference === 'light' ? 'tabler:sun-filled' : 'tabler:moon-filled')" width="20" height="20"/>
         </button>
         <div id="selectThemeDropdown" class="hs-dropdown-menu hs-dropdown-open:opacity-100 mt-2 hidden z-10 transition-[margin,opacity] opacity-0 duration-300 mb-2 origin-bottom-left bg-white shadow-md rounded-lg p-2 space-y-1 dark:bg-zinc-800 dark:border dark:border-zinc-800 dark:divide-zinc-800">
@@ -24,7 +24,7 @@
         </div>    
       </div>
       <div class="hs-dropdown" data-hs-dropdown-placement="bottom-right" data-hs-dropdown-offset="30">
-        <button type="button" class="hs-dropdown-toggle hs-dark-mode group py-2 px-2 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-zinc-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-zinc-800">
+        <button aria-label="Menu" type="button" class="hs-dropdown-toggle hs-dark-mode group py-2 px-2 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-zinc-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-zinc-800">
           <Icon class="block text-black dark:text-white" icon="tabler:menu-2" width="20" height="20"/>
         </button>
         <div id="selectMenu" class="hs-dropdown-menu hs-dropdown-open:opacity-100 mt-2 hidden z-10 transition-[margin,opacity] opacity-0 duration-300 mb-2 origin-bottom-left bg-white shadow-md rounded-lg p-2 space-y-1 dark:bg-zinc-800 dark:border dark:border-zinc-800 dark:divide-zinc-800">

@@ -12,13 +12,20 @@ export default defineNuxtConfig({
       },
       meta: [
         { property: 'og:image', content: '/CrystaWorld.png' },
+        { property: 'theme-color', content: '#79ADA7'}
       ]
     }
   },
   css: ['~/assets/css/style.scss'],
   devtools: { enabled: true },
   modules: [
-    "@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "@nuxtjs/color-mode", "@vueuse/nuxt", "@nuxt/content","@nuxtjs/seo"
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-fonts",
+    "@nuxtjs/color-mode",
+    "@vueuse/nuxt",
+    "@nuxt/content",
+    "@nuxtjs/seo",
+    "@nuxt/image"
   ],
   tailwindcss: {
     cssPath: "~/assets/css/style.scss",
