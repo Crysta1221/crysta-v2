@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  devtools: { enabled: true },
   app: {
     head: {
       charset: 'utf-16',
@@ -16,14 +17,24 @@ export default defineNuxtConfig({
       ]
     }
   },
+  content: {
+    highlight: {
+      // Theme used in all color schemes.
+      theme: {
+        default: "one-dark-pro",
+        dark: "one-dark-pro",
+        light: "github-dark"
+      },
+      preload: ['diff', 'ts', 'js', 'css', 'java', 'groovy', 'sql', 'xml', 'json'],
+    }
+  },
   css: ['~/assets/css/style.scss'],
-  devtools: { enabled: true },
   modules: [
+    "@nuxt/content",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
     "@nuxtjs/color-mode",
-    "@vueuse/nuxt",
-    "@nuxt/content",
+    "@vueuse/nuxt", 
     "@nuxtjs/seo",
     "@nuxt/image"
   ],
@@ -45,7 +56,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       'Noto+Sans+JP': true,
-      'Inter': true
+      'Source+Code+Pro': [400],
     }
   },
   site: {

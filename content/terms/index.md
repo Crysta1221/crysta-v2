@@ -38,3 +38,11 @@ Crysta Worldは、ユーザーに対し事前の告知なく本利用規約を�
 Crysta Worldではプライバシーポリシーを定めており、そのポリシーに則って個人情報の取り扱いならびに使用します。  
 また、Crysta Worldでは別のサービスを利用していることがあります。その場合はそのサービスのプライバシーポリシーをご参照ください。  
 [Crysta World プライバシーポリシー](/policy)
+
+```vue {1,2,3}[index.vue]
+<template>
+  <div class="max-sm">
+    <h1> This is a Code Block. </h1>
+  </div>
+</template>
+```

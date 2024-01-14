@@ -11,16 +11,7 @@ export default {
     "./nuxt.config.{js,ts}",
   ],
   darkMode: "class",
-  theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
-  },
-  plugins: [require('@tailwindcss/forms'), require('preline/plugin')],
+  plugins: [require('@tailwindcss/forms'), require('preline/plugin'), require('@tailwindcss/typography')]
 }
   
   
