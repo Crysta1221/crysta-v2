@@ -36,7 +36,8 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@vueuse/nuxt", 
     "@nuxtjs/seo",
-    "@nuxt/image"
+    "@nuxt/image",
+    "nuxt-microcms-module"
   ],
   tailwindcss: {
     cssPath: "~/assets/css/style.scss",
@@ -64,5 +65,9 @@ export default defineNuxtConfig({
     name: "CrystaWorld",
     description: "Welcome to CrystaWorld!",
     defaultLocale: "ja",
+  },
+  microCMS: {
+    serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN,
+    apiKey: process.env.MICROCMS_API_KEY,
   }
 })
