@@ -1,3 +1,4 @@
+import { readFileSync, readdirSync } from 'node:fs';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -25,7 +26,9 @@ export default defineNuxtConfig({
         dark: "one-dark-pro",
         light: "github-dark"
       },
-      preload: ['diff', 'ts', 'js', 'css', 'java', 'groovy', 'sql', 'xml', 'json'],
+      preload: [
+        JSON.parse(readFileSync('./assets/lang/mcfunction.tmLanguage.json', 'utf-8')),
+      'diff', 'ts', 'js', 'css', 'java', 'groovy', 'sql', 'xml', 'json', 'batch', "shell"],
     }
   },
   css: ['~/assets/css/style.scss'],
@@ -37,7 +40,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt", 
     "@nuxtjs/seo",
     "@nuxt/image",
-    "nuxt-microcms-module"
+    "dayjs-nuxt"
   ],
   tailwindcss: {
     cssPath: "~/assets/css/style.scss",
@@ -66,8 +69,4 @@ export default defineNuxtConfig({
     description: "Welcome to CrystaWorld!",
     defaultLocale: "ja",
   },
-  microCMS: {
-    serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN,
-    apiKey: process.env.MICROCMS_API_KEY,
-  }
 })

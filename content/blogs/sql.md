@@ -1,0 +1,43 @@
+---
+title: 知らないうちにSQLインジェクションを発生させてた話
+date: 2023-10-30
+category: SQLite
+author: Crysta1221
+tags:
+    - SQLite
+    - Express
+---
+
+# 0.はじめに
+今回は本当にあったヒヤリハットのようなことが起こったので備忘録としてここに綴っておこうかと思います。
+## 自己紹介
+```sh [crysta.sh]
+$ sudo docker exec -it crysta whois
+ Name : Crysta1221
+  X   : @cr1sta_dev
+ AGE  : 17
+ WORK : NNCT 3S
+SKILL : Frontend Engineer(Vue.js), Backend Engineer(node.js,Express.js), Docker
+```
+# 1.気づいたきっかけ
+現在、文化祭用のAPIの設計を頼まれていてGithub Copilot(以後Copilot)の手を借りながらGET、POST、DELETEの作成が終わり喜んでいたときでした...  
+たまたまX(Twitter)で次のものが流れてきました。
+
+https://t.co/Ebs34EtFjm
+
+あれ...? わんちゃんやらかしてないか...? この時作成していたコードは次の画像の通りです。
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/a4d1252c-d795-0762-c075-0800e88ea4ed.png)
+### ...
+**誰が言うまでもなくSQLインジェクションの可能性があるコードでした!!!**
+まぁ念のためCopilotではなくChat GPTに聞いたところちゃんと脆弱性がありました。
+
+# 2.そもそもSQLインジェクションって？
+https://www.shadan-kun.com/waf_websecurity/sql_injection/
+
+こちらのサイトを見てもらったほうがわかりやすい気がしますが、URL等にSQL文を入れてリクエストされるとSQL文が実行されてすべてのデータが取得されてしまう...という脆弱性です。今回作成していたAPIはばりばりURLのクエリパラメータの値をそのままSQL文に流用していたために脆弱性が発生してもおかしくない状況でした。
+
+# 3.対処
+幸いにもAPIの公開前に気づいたので被害が発生することもありませんでした。(まぁゲームのスコアなどの情報しかないので知られてもあまり被害が起きませんが...)
+後日次のコードにし、おそらく発生しにくくなったと思います。![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/2bb0e408-71d7-790d-5efa-dbcb464773d8.png)
+今のコードも脆弱性となりうるかもなのでまたよくよくコードを見ておこうかと思います。(まだここヤバいんじゃない..?とかありましたら教えていただけたら幸いです。)
+知らないうちに脆弱性作ってたようなものなので別の方でも気を付けるようにしたいと思います。

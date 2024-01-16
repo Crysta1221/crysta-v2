@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 rounded-lg bg-[#24292E] dark:bg-[#161B22] border-gray-700 mt-4">
+  <div class="p-4 rounded-lg bg-[#24292E] dark:bg-[#161B22] border-gray-700 mt-4 mb-4">
     <div class="mb-8 text-gray-300 flex items-center justify-between text-sm -mt-1.5">
       <div class="flex items-center">
         <template v-if="languageIcon">

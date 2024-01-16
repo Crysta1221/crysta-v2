@@ -27,7 +27,8 @@
     "@tailwindcss/typography": "^0.5.10",
     "@vueuse/nuxt": "^10.7.1",
     "clipboard": "^2.0.11",
-    "nuxt-microcms-module": "^3.0.2",
+    "dayjs-nuxt": "^2.1.9",
+    "newt-client-js": "^3.2.8",
     "preline": "^2.0.3",
     "sass": "^1.69.6"
   }

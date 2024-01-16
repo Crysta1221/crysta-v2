@@ -1,16 +1,16 @@
 <template>
   <Theme/>
   <div class="flex flex-col lg:flex-row mt-4">
-    <div class="md:w-4/12 lg:w-4/12 ml-8 lg:ml-20">
+    <div class="md:w-4/12 lg:w-4/12 ml-10 lg:ml-28">
       <NuxtImg width="256" height="256" format="webp" src="/crysta.png" class="w-[120px] lg:w-[180px] border shadow border-gray-200 dark:border-none rounded-full" alt="Crysta1221" />
       <section>
         <h1 class="text-3xl lg:text-4xl ml-2 lg:ml-4 font-bold main mt-8">くりすた</h1>
         <p class="mt-3 text-zinc-500 text-lg ml-2 lg:ml-4">フロントエンド大好き</p>
       </section> 
     </div>
-    <div class="mt-4 lg:mt-0 ml-8 lg:ml-0 mr-8 lg:mr-8 xl:ml-12">
+    <div class="mt-4 lg:mt-0 lg:ml-0 mr-8 lg:mr-12 ml-8 xl:ml-8">
       <!-- Card Section -->
-      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:mr-8">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:mr-8 w-full h-full">
         <a class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-blue-400" href="https://twitter.com/Cr1sta_dev" target="_blank" style="opacity: 1; transform: none;">
           <div class="flex h-10 w-10 items-center justify-center rounded-xl">
             <Icon icon="skill-icons:twitter" width="36" height="36" />
@@ -124,9 +124,10 @@
       </div>
     </div>
   </div>
-  <Footer/>
+  <Footer class="lg:fixed lg:bottom-0 lg:ml-12"/>
 </template>
 
 <script setup>
 import { Icon } from '@iconify/vue';
 </script>
+
