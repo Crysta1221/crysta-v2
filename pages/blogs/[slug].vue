@@ -57,6 +57,7 @@ const { data: newer } = await useAsyncData("blogs", () =>
 )
 const meta = {
   title: blogs.title,
+  image: blogs.image
 }
 
 const image = blogs.image || '/CrystaWorld.png'
