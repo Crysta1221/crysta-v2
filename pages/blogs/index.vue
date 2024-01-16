@@ -16,7 +16,7 @@
             </h3>
             <div class="flex flex-wrap">
               <div v-for="(tag, index) in n.tags" :key="index" class="mt-4">
-                <a :href="`/tags/${tag}`" class="flex items-center gap-x-1.5 py-1.5 px-3 rounded-lg text-xs font-medium bg-green-200 text-green-800 dark:bg-green-700/30 dark:text-green-500 mr-2"><Icon icon="tabler:tag" class="w-4 h-4"/>{{ tag }}</a>
+                <a class="flex items-center gap-x-1.5 py-1.5 px-3 rounded-lg text-xs font-medium bg-green-200 text-green-800 dark:bg-green-700/30 dark:text-green-500 mr-2"><Icon icon="tabler:tag" class="w-4 h-4"/>{{ tag }}</a>
               </div>
             </div>
           </div>
