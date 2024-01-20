@@ -37,10 +37,10 @@
               <Icon class="block w-5 h-5" icon="tabler:apps" width="36" height="36"/>
               プロダクト
             </router-link>
-            <router-link to="/blogs" type="button" class="w-full flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-zinc-800 dark:hover:text-gray-300">
+            <a href="https://blog.crystaworld1221.com" type="button" class="w-full flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-zinc-800 dark:hover:text-gray-300">
               <Icon class="block w-5 h-5" icon="tabler:app-window" width="36" height="36"/>
               ブログ
-            </router-link>
+            </a>
             <div class="border border-solid"></div>
             <a href="https://v1.crystaworld1221.com" type="button" class="w-full flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-zinc-800 dark:hover:text-gray-300">
               <Icon class="block w-5 h-5" icon="tabler:archive" width="36" height="36"/>

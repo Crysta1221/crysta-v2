@@ -11,14 +11,11 @@ tags:
 # 0.はじめに
 今回は本当にあったヒヤリハットのようなことが起こったので備忘録としてここに綴っておこうかと思います。
 ## 自己紹介
-```sh [crysta.sh]
-$ sudo docker exec -it crysta whois
- Name : Crysta1221
-  X   : @cr1sta_dev
- AGE  : 17
- WORK : NNCT 3S
-SKILL : Frontend Engineer(Vue.js), Backend Engineer(node.js,Express.js), Docker
+
+```sh [console]
+vue add vuestic-ui
 ```
+
 # 1.気づいたきっかけ
 現在、文化祭用のAPIの設計を頼まれていてGithub Copilot(以後Copilot)の手を借りながらGET、POST、DELETEの作成が終わり喜んでいたときでした...  
 たまたまX(Twitter)で次のものが流れてきました。

@@ -1,6 +1,6 @@
 <template>
   <Theme/>
-  <div class="flex flex-col lg:flex-row mt-4">
+  <div class="flex flex-col lg:flex-row mt-6">
     <div class="md:w-4/12 lg:w-4/12 ml-10 lg:ml-28">
       <NuxtImg width="256" height="256" format="webp" src="/crysta.png" class="w-[120px] lg:w-[180px] border shadow border-gray-200 dark:border-none rounded-full" alt="Crysta1221" />
       <section>
@@ -124,7 +124,7 @@
       </div>
     </div>
   </div>
-  <Footer class="lg:fixed lg:bottom-0 lg:ml-12"/>
+  <Footer class="lg:bottom-0 lg:ml-12 lg:-mt-6"/>
 </template>
 
 <script setup>
