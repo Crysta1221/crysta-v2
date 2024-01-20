@@ -13,7 +13,7 @@
             フォーム一時停止のお知らせ
           </h3>
           <div class="mt-1 text-sm text-yellow-700 dark:text-yellow-500">
-            現在、このお問い合わせフォームに不具合が発生しているため利用できません。お手数をおかけしますが旧CrystaWorldのお問い合わせフォームをご利用ください。<br/><a href="https://v1.crystaworld1221.com/contact" class="underline">https://v1.crystaworld1221.com/contact</a>
+            現在、このお問い合わせフォームに不具合が発生しているため利用できません。重要な連絡等ありましたら、Twitter(@cr1sta_dev)のDMまでお願いします。
           </div>
         </div>
       </div>
