@@ -18,19 +18,6 @@ export default defineNuxtConfig({
       ]
     }
   },
-  content: {
-    highlight: {
-      // Theme used in all color schemes.
-      theme: {
-        default: "one-dark-pro",
-        dark: "one-dark-pro",
-        light: "github-dark"
-      },
-      preload: [
-        JSON.parse(readFileSync('./assets/lang/mcfunction.tmLanguage.json', 'utf-8')),
-      'diff', 'ts', 'js', 'css', 'java', 'groovy', 'sql', 'xml', 'json', 'batch', "shell"],
-    }
-  },
   css: ['~/assets/css/style.scss'],
   modules: [
     "@nuxt/content",
@@ -40,7 +27,6 @@ export default defineNuxtConfig({
     "@vueuse/nuxt", 
     "@nuxtjs/seo",
     "@nuxt/image",
-    "dayjs-nuxt"
   ],
   tailwindcss: {
     cssPath: "~/assets/css/style.scss",

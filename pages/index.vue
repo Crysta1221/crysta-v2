@@ -100,7 +100,7 @@
           </div>
         </div>
         <div class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#000] dark:hover:border-[#fff]" style="opacity: 1; transform: none;">
-          <div class="w-9 h-9 rounded-lg shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center">
+          <div class="w-9 h-9 rounded-2xl shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center">
             <NuxtImg width="64" height="64" class="rounded" src="/genshin.jpg" alt="Genshin"/>
           </div>
           <div class="mt-2 flex flex-col gap-1">
@@ -111,7 +111,7 @@
           </div>
         </div>
         <div class="rounded-xl border-2 border-spacing-2 dark:border-[#27272a] bg-card shadow p-3 md:p-5 transition-colors hover:border-[#000] dark:hover:border-[#fff]" style="opacity: 1; transform: none;">
-          <div class="w-9 h-9 rounded-lg shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center">
+          <div class="w-9 h-9 rounded-2xl shadow-sm mb-2  duration-200 mr-3 flex items-center justify-center">
             <NuxtImg width="64" height="64" class="rounded" src="/hsr.webp" alt="HSR"/>
           </div>
           <div class="mt-2 flex flex-col gap-1">
@@ -130,4 +130,3 @@
 <script setup>
 import { Icon } from '@iconify/vue';
 </script>
-

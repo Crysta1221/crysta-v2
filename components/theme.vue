@@ -1,7 +1,7 @@
 <template>
   <header class="mt-6 sticky top-0 sm:justify-start sm:flex-nowrap z-50 w-full bg-white dark:bg-[#09090B] text-sm py-3 sm:py-0 text-white">
     <div class="flex justify-between h-16 items-center mr-8 lg:mr-12 gap-4">
-      <router-link aria-label="Home" to="/" type="button" class="ml-8 group py-2 px-2 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-zinc-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-zinc-800">
+      <router-link aria-label="Home" to="/" type="button" class="ml-8 lg:ml-12 group py-2 px-2 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-zinc-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-zinc-800">
         <Icon class="block text-black dark:text-white" icon="tabler:home-2" width="20" height="20"/>
       </router-link>
       <div class="flex gap-4">
