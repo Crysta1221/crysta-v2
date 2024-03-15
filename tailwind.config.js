@@ -7,11 +7,13 @@ export default {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
-    './node_modules/preline/preline.js',
+    "./node_modules/preline/preline.js",
     "./nuxt.config.{js,ts}",
   ],
   darkMode: "class",
-  plugins: [require('@tailwindcss/forms'), require('preline/plugin'), require('@tailwindcss/typography')]
-}
-  
-  
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("preline/plugin"),
+    require("@tailwindcss/typography"),
+  ],
+};
